@@ -7,6 +7,10 @@
     background-color: rgb(4, 89, 104);
 }
 
+body{
+    background-image: linear-gradient(blue, red);
+}
+
 header h1{
 
     text-align: center;
@@ -55,9 +59,6 @@ header h1{
     flex-direction: row;
     justify-content: center;
     padding: 10px 1px;
-
-    
-    
 }
 
 .nav-meu *{
@@ -71,6 +72,7 @@ header h1{
     color:whitesmoke;
     font-weight: bold;
     font-size: 20px;
+    
 
 
 }
@@ -130,6 +132,7 @@ header{
 .nav-menu ul{
     display: flex;
     align-items: center;
+    
 }
 .nav-menu li{
     margin-right: 1rem;
@@ -250,4 +253,33 @@ header{
     .form{
         pad: 3.5em 1.5em;
     }
+}
+
+.ancho-letras{
+    padding-top: 200px;
+    width: 100%;
+    background: rgba(red, green, blue, alpha);
+    text-align: center;
+}
+
+.letras-slider{
+    width: 80%;
+    margin: auto;
+
+}
+
+.letras-slider h1 {
+    color: rgb(255, 255, 255);
+    font-family: rale; 
+    font-size: 70px;
+    }
+
+.letras-slider p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: rale;
+    padding-top: 50px;
+    animation-iteration-count: inherit;
+    animation-timing-function: ease-in-out;
+
 }
